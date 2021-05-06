@@ -12,11 +12,13 @@
           |Chia để trị  |Xử lý chuỗi| 
           |Tham lam|  Hình học ( Geometry)|
           |Cáu trúc dữ liệu  | Quy hoạc động |
-      * Special ( những bài thuộc nhiều dạng bài khác nhau )
+          
+          * Special ( những bài thuộc nhiều dạng bài khác nhau ) 
+          
 * Tip 3 : Đánh giá độ phức tạp bài toán </br>
     * Dựa vào điều kiện ( input , ouput ) đề bài để từ đó có thể đưa ra thuật toán phù hợp với bài ( Tránh trường hợp bị TLE khi submit ).
 * Tip 4 : Thành thạo 1 ngôn ngữ lập trình  ( Không cần phải quá xuất săc về nnlt đó ) </br>
    * Tiết kiệm thời gian để tra cứu về cách sử dụng 1 hàm , 1 câu lệnh , ... . 
    * Viết code ngắn hơn bằng cách sử dụng những hàm có sắn trong thư viện . 
    * Dùng marcro , define ( với C++)  giúp tiết kiệm thời gian code .
-* Tip 5 : 
+* Tip 5 : Thành thục kĩ năng test code </br>
