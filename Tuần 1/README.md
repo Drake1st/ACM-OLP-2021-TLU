@@ -20,5 +20,7 @@
 * Tip 4 : Thành thạo 1 ngôn ngữ lập trình  ( Không cần phải quá xuất săc về nnlt đó ) </br>
    * Tiết kiệm thời gian để tra cứu về cách sử dụng 1 hàm , 1 câu lệnh , ... . 
    * Viết code ngắn hơn bằng cách sử dụng những hàm có sắn trong thư viện . 
-   * Dùng marcro , define ( với C++)  giúp tiết kiệm thời gian code .
+   * Tiết kiệm thời gian debug những lỗi liên quan đến ngôn ngữ .
 * Tip 5 : Thành thục kĩ năng test code </br>
+   * Đây là kĩ năng quan trọng nhất để có thể AC đồng thời đây cũng là kĩ năng khó để thành thục 
+   
