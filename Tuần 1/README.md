@@ -23,5 +23,5 @@
    * Tiết kiệm thời gian debug những lỗi liên quan đến ngôn ngữ .
 * Tip 5 : Thành thục kĩ năng test code </br>
    * Đây là kĩ năng quan trọng nhất để có thể AC đồng thời đây cũng là kĩ năng khó để thành thục 
-   * Một số trường hợp còn test trước khi submit : Test case mẫu của đề bài ; Test case có giá trị max theo đề ;  Một số test case đặc biệt theo đề bài ; ... .
+   * Một số trường hợp còn test trước khi submit : Test case mẫu của đề bài ; test case có giá trị max theo đề ;  test case đặc biệt theo đề bài ; ... .
    * Có thể test code bằng cách tự tạo test case và 1 code chạy trâu để check ( có thể xem kỹ hơn ở [đây](https://vnoi.info/wiki/algo/skill/viet-trinh-cham.md] )) .
