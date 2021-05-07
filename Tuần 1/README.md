@@ -1,5 +1,5 @@
 ## Tổng kết tuần 1 ##
-#### Các tip trong CP:
+### Các tips trong CP:
 * Tip 1 : Gõ code nhanh hơn </br>
     * Đây là 1 kỹ năng cơ bản nhưng lại khá là quan trọng , việc gõ code nhanh hơn có thể khiến thứ hạng trên bảng rank của team cao hơn và tiết kiệm thời gian để giải quyết 1 bài .
 * Tip 2 : Xác định dạng bài và những kiến thức về dạng bài đấy </br>
@@ -25,3 +25,8 @@
    * Đây là kĩ năng quan trọng nhất để có thể AC đồng thời đây cũng là kĩ năng khó để thành thục 
    * Một số trường hợp còn test trước khi submit : Test case mẫu của đề bài ; test case có giá trị max theo đề ;  test case đặc biệt theo đề bài ; ... .
    * Có thể test code bằng cách tự tạo test case và 1 code chạy trâu để check ( có thể xem kỹ hơn ở [đây](https://vnoi.info/wiki/algo/skill/viet-trinh-cham.md] )) .
+* Tip 6 : Luyện tập 
+   * Luyện làm các contest để luyện kĩ năng làm bài .
+   * Làm chắc những bài classic của từng dạng .
+* Tip 7 : Team work trong ICPC
+### Hình học ( Geometry) :
