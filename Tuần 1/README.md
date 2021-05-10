@@ -33,3 +33,40 @@
 * Lưu ý : 
    - Tránh các phép toán có thể tạo ra số thực ( chia , lấy căn ,... ) 
    - Khi làm việc với số thực . Nếu muốn so sánh a == b ta sẽ dùng fabs ( a-b ) < EPS ( EPS là 1 số cực nhỏ 1e-9) . Khi mà chúng ta cần so sánh ( a >= 0.0 ) ta dùng (a > -EPS) và ngược lại (a <= 0.0) dùng (a < EPS)
+
+* Điểm :
+   - Tạo 1 kiểu dữ liệu trừu tượng dùng stuct ( hoặc class ) để thể hiện tọa độ (x,y) trong máy tính 
+   ```
+      struct point {
+         double x , y ;// có thể dùng kiểu interger tùy vào yêu cầu bài 
+         point(double _x, double _y) { x = _x, y = _y; }
+         bool operator < (point other) {
+            if (fabs(x - other.x) > EPS) // useful for sorting
+                  return x < other.x; // first criteria , by x-axis
+            return y < other.y; // second criteria, by y-axis
+        }
+      };
+   ```   
+  - Khoảng cách giữa 2 điểm 
+  ```
+  double dist(point p1, point p2) {
+         // hypot(dx, dy) returns sqrt(dx * dx + dy * dy)
+      return hypot(p1.x - p2.x, p1.y - p2.y); } 
+  ```
+  - Kiểm tra 2 điểm có trùng nhau hay không :
+  ```
+   bool areSame(point p1, point p2) { // floating point version
+      // use EPS when testing equality of two floating points
+   return fabs(p1.x - p2.x) < EPS && fabs(p1.y - p2.y) < EPS; 
+   }
+
+  ```
+  - Quay 1 điểm theo 1 góc  α
+  ```
+  point rotate(point p, double alpha) {
+      double rad = DEG_to_RAD(alpha); // multiply alpha with PI / 180.0
+         return point(p.x * cos(rad) - p.y * sin(rad),
+                p.x * sin(rad) + p.y * cos(rad)); 
+  }
+  ```
+  
