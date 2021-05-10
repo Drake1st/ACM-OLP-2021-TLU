@@ -93,6 +93,9 @@
   
   - Khoảng cách từ 1 điểm đến 1 đường thẳng :
   ```
+   double distToLine(point p , line l) {
+      return ( fabs(l.calwithpoint(p)) / hypot(l.a,l.b) ) ;
+   }
   ```
    
    - Kiểm tra song song :
@@ -118,5 +121,13 @@
       return true; 
       }
    ```
-  
+   - Góc giữa 2 đường thẳng :
+   ```
+   double angel( line l1 , line l2) {
+    //  in radian
+    return acos( fabs(l1.a * l2.a + l1.b*l2.b ) / ( hypot(l1.a, l1.b) * hypot(l2.a,l2.b) ) ) ;
+   }
+
+   ```
+   
   
