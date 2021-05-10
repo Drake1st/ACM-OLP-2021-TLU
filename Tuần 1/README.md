@@ -34,7 +34,7 @@
    - Tránh các phép toán có thể tạo ra số thực ( chia , lấy căn ,... ) 
    - Khi làm việc với số thực . Nếu muốn so sánh a == b ta sẽ dùng fabs ( a-b ) < EPS ( EPS là 1 số cực nhỏ 1e-9) . Khi mà chúng ta cần so sánh ( a >= 0.0 ) ta dùng (a > -EPS) và ngược lại (a <= 0.0) dùng (a < EPS)
 
-* Điểm :
+* Điểm : Team sẽ nói qua 1 số điều cơ bản về điểm trong CP và 1 số hàm cũng như phép tính liên quan đến điểm trong tọa độ Oxy .
    - Tạo 1 kiểu dữ liệu trừu tượng dùng stuct ( hoặc class ) để thể hiện tọa độ (x,y) trong máy tính 
    ```
       struct point {
@@ -69,4 +69,43 @@
                 p.x * sin(rad) + p.y * cos(rad)); 
   }
   ```
+  
+  * Đường thẳng : ax + by + c = 0 
+  - Biểu diễn đường thẳng :
+  ```
+  struct line { double a, b, c; };
+  ```
+  - Tạo 1 đường thẳng từ 2 điểm p<sub>1</sub> ( x<sub>1</sub>,y<sub>1</sub> ) và p<sub>2</sub> ( x<sub>2</sub>,y<sub>2</sub>) 
+      
+   ( y<sub>1</sub> - y<sub>2</sub> ) * ( x - x<sub>1</sub> ) + (x<sub>2</sub>-x<sub>1</sub>) ( y - y<sub>1</sub> ) = 0
+  ```
+  
+  void pointsToLine(point p1, point p2, line *l) {
+        if (p1.x == p2.x) { // vertical line is handled nicely here
+            l->a = 1.0; l->b = 0.0; l->c = -p1.x;
+        } else{
+            l->a = -(double)(p1.y - p2.y) / (p1.x - p2.x);
+            l->b = 1.0; // fix the value of b to 1.0
+            l->c = -(double)(l (double)(l->a * p1.x) - (l->b * p1.y);
+        } 
+  }
+  ```
+  
+  - Khoảng cách từ 1 điểm đến 1 đường thẳng :
+   ```
+   ```
+   
+ - Kiểm tra song song :
+ ```
+ bool areParallel(line l1, line l2) { 
+   return (fabs(l1.a-l2.a) < EPS) && (fabs(l1.b-l2.b) < EPS); 
+ }
+ ```
+  - Kiểm tra trùng nhau :
+ ```
+bool areSame(line l1, line l2) { // also check coefficient c
+   return areParallel(l1, l2) && (fabs(l1.c - l2.c) < EPS); 
+}
+ ```
+  
   
