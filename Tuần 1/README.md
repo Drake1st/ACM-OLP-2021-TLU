@@ -30,3 +30,6 @@
    * Làm chắc những bài classic của từng dạng .
 * Tip 7 : Team work trong ICPC
 ### Hình học ( Geometry) :
+* Lưu ý : 
+   - Tránh các phép toán có thể tạo ra số thực ( chia , lấy căn ,... ) 
+   - Khi làm việc với số thực . Nếu muốn so sánh a == b ta sẽ dùng fabs ( a-b ) < EPS ( EPS là 1 số cực nhỏ 1e-9) . Khi mà chúng ta cần so sánh ( a >= 0.0 ) ta dùng (a > -EPS) và ngược lại (a <= 0.0) dùng (a < EPS)
