@@ -101,7 +101,7 @@
    return (fabs(l1.a-l2.a) < EPS) && (fabs(l1.b-l2.b) < EPS); 
  }
  ```
-   - Kiểm tra trùng nhau :
+    - Kiểm tra trùng nhau :
  ```
 bool areSame(line l1, line l2) { // also check coefficient c
    return areParallel(l1, l2) && (fabs(l1.c - l2.c) < EPS); 
