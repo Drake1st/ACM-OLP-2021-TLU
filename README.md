@@ -16,7 +16,7 @@
 |Tuần|Topics| Bài tập |Ghi chú|
 | --- | --- |  ---|  --- |
 |[**Heads Up**](https://github.com/Drake1st/ACM-OLP-2021-TLU)| <ul><li>Tổng kết các vấn đề của team trong cuộc thi 2020 </li> |||
-|[**Tuần 1**](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%201)|<ul><li> Các tips, tricks liên quan đến giải thuật</li><li> Hình học không gian (Geometry) </li> |[links](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%201/B%C3%A0i%20t%E1%BA%ADp)|<ul><li> Bọn mình sẽ cố gắng update những tip , tricks mà team biết </li>|
+|[**Tuần 1**](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%201)|<ul><li> Các tips, tricks liên quan đến giải thuật</li><li> Hình học không gian (Geometry) </li> |[link](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%201/B%C3%A0i%20t%E1%BA%ADp)|<ul><li> Bọn mình sẽ cố gắng update những tip , tricks mà team biết </li>|
 |[**Tuần 2**](https://github.com/Drake1st/ACM-OLP-2021-TLU)||||
 |[**Tuần 3**](https://github.com/Drake1st/ACM-OLP-2021-TLU)||||
 |[**Tuần 4**](https://github.com/Drake1st/ACM-OLP-2021-TLU)||||
