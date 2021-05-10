@@ -47,28 +47,9 @@
         }
       };
    ```   
-  - Khoảng cách giữa 2 điểm 
-  ```
-  double dist(point p1, point p2) {
-         // hypot(dx, dy) returns sqrt(dx * dx + dy * dy)
-      return hypot(p1.x - p2.x, p1.y - p2.y); } 
-  ```
-  - Kiểm tra 2 điểm có trùng nhau hay không :
-  ```
-   bool areSame(point p1, point p2) { // floating point version
-      // use EPS when testing equality of two floating points
-   return fabs(p1.x - p2.x) < EPS && fabs(p1.y - p2.y) < EPS; 
-   }
-
-  ```
+  - Khoảng cách giữa 2 điểm = sqrt (   (x<sub>1</sub> -  x<sub>2</sub>) <sup>2</sup> +  (y<sub>1</sub> -  y<sub>2</sub>) <sup>2</sup> )
   - Quay 1 điểm theo 1 góc  α
-  ```
-  point rotate(point p, double alpha) {
-      double rad = DEG_to_RAD(alpha); // multiply alpha with PI / 180.0
-         return point(p.x * cos(rad) - p.y * sin(rad),
-                p.x * sin(rad) + p.y * cos(rad)); 
-  }
-  ```
+ 
   
   * Đường thẳng : ax + by + c = 0 
   - Biểu diễn đường thẳng :
@@ -78,38 +59,14 @@
   - Tạo 1 đường thẳng từ 2 điểm p<sub>1</sub> ( x<sub>1</sub>,y<sub>1</sub> ) và p<sub>2</sub> ( x<sub>2</sub>,y<sub>2</sub>) 
       
    ( y<sub>1</sub> - y<sub>2</sub> ) * ( x - x<sub>1</sub> ) + (x<sub>2</sub>-x<sub>1</sub>) ( y - y<sub>1</sub> ) = 0
-  ```
-  
-  void pointsToLine(point p1, point p2, line *l) {
-        if (p1.x == p2.x) { // vertical line is handled nicely here
-            l->a = 1.0; l->b = 0.0; l->c = -p1.x;
-        } else{
-            l->a = -(double)(p1.y - p2.y) / (p1.x - p2.x);
-            l->b = 1.0; // fix the value of b to 1.0
-            l->c = -(double)(l (double)(l->a * p1.x) - (l->b * p1.y);
-        } 
-  }
-  ```
-  
+
   - Khoảng cách từ 1 điểm đến 1 đường thẳng :
-  ```
-   double distToLine(point p , line l) {
-      return ( fabs(l.calwithpoint(p)) / hypot(l.a,l.b) ) ;
-   }
-  ```
+  ![alt text](https://vietjack.com/toan-lop-10/images/cac-cong-thuc-ve-phuong-trinh-duong-thang-a03.PNG)
    
-   - Kiểm tra song song :
-   ```
-   bool areParallel(line l1, line l2) { 
-      return (fabs(l1.a-l2.a) < EPS) && (fabs(l1.b-l2.b) < EPS); 
-   }
-    ```
-   - Kiểm tra trùng nhau :
-    ```
-   bool areSame(line l1, line l2) { // also check coefficient c
-      return areParallel(l1, l2) && (fabs(l1.c - l2.c) < EPS); 
-   }
-    ```
+   - Kiểm tra song song : a<sub>1</sub> = a<sub>2</sub> && b<sub>1</sub> = b<sub>2</sub> && c<sub>1</sub> != c<sub>2</sub>
+  
+   - Kiểm tra trùng nhau : a<sub>1</sub> = a<sub>2</sub> && b<sub>1</sub> = b<sub>2</sub> && c<sub>1</sub> = c<sub>2</sub>
+    
     - Giao nhau 2 đường thẳng :
     ```
     bool areIntersect(line l1, line l2, point &p) {
@@ -121,13 +78,9 @@
       return true; 
       }
    ```
-   - Góc giữa 2 đường thẳng :
-   ```
-   double angel( line l1 , line l2) {
-    //  in radian
-    return acos( fabs(l1.a * l2.a + l1.b*l2.b ) / ( hypot(l1.a, l1.b) * hypot(l2.a,l2.b) ) ) ;
-   }
-
-   ```
+   - Góc giữa 2 đường thẳng  ta dựa vào công thức : ( x, y ) là VTPT của đường thẳng 1 và ( x' , y' ) là VTPT của đường thẳng 2  
+   ![alt text](https://vietjack.com/toan-lop-10/images/cach-xac-dinh-goc-giua-hai-duong-thang-1.PNG)
+   
+  
    
   
