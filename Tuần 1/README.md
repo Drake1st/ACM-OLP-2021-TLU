@@ -101,7 +101,8 @@
   - Hình chữ nhật : chiều dài h , chiều rộng w -> chu vi = 2 *( w+h ) && diện tích = w*h 
   - Hình thang : diện tích = 0.5 * (w<sub>1</sub>+w<sub>2</sub>) * h ( h là chiều cao , w <sub>1</sub> và w<sub>2</sub> là chiều dài của 2 cạnh đáy .
   - Hình thoi: diện tích ![image](https://user-images.githubusercontent.com/61226996/117823077-486f6d80-b297-11eb-9852-0a622f5f2409.png)
-  - Hình diều : <img src="https://user-images.githubusercontent.com/61226996/117823209-6b018680-b297-11eb-9ca3-f9c1a02dfccb.png" alt="..." width="250" />
+  - Hình diều :
+         <img src="![image](https://user-images.githubusercontent.com/61226996/117827833-866e9080-b29b-11eb-86e8-bde791014f4f.png)" alt="..." width="200" /> 
          - Diện tích : a * b * 0.5 ( a,b là độ dài 2 cạnh chéo ) 
 * Đa giác :
    -  Đa giác đều có n cảnh :
@@ -115,5 +116,5 @@
    
 * Tìm bao lồi 
       
-<img src="https://user-images.githubusercontent.com/61226996/117823209-6b018680-b297-11eb-9ca3-f9c1a02dfccb.png" alt="..." width="10" />
+
   
