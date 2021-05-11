@@ -102,7 +102,7 @@
   - Hình thang : diện tích = 0.5 * (w<sub>1</sub>+w<sub>2</sub>) * h ( h là chiều cao , w <sub>1</sub> và w<sub>2</sub> là chiều dài của 2 cạnh đáy .
   - Hình thoi: diện tích ![image](https://user-images.githubusercontent.com/61226996/117823077-486f6d80-b297-11eb-9852-0a622f5f2409.png)
   - Hình diều :
-         <img src="![image](https://user-images.githubusercontent.com/61226996/117827833-866e9080-b29b-11eb-86e8-bde791014f4f.png)" alt="..." width="200" /> 
+         ![image](https://user-images.githubusercontent.com/61226996/117828461-05fc5f80-b29c-11eb-8f37-4294bb889691.png) </br>
          - Diện tích : a * b * 0.5 ( a,b là độ dài 2 cạnh chéo ) 
 * Đa giác :
    -  Đa giác đều có n cảnh :
