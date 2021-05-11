@@ -81,8 +81,27 @@
    - Góc giữa 2 đường thẳng  ta dựa vào công thức : ( x, y ) là VTPT của đường thẳng 1 và ( x' , y' ) là VTPT của đường thẳng 2  
     cosα = ![alt text](https://vietjack.com/toan-lop-10/images/cach-xac-dinh-goc-giua-hai-duong-thang-1.PNG)
 
-* Vòng tròn :
-- Phương trình đường tròn tâm (a,b) bán kính r : ( x - a )  <sup>2</sup> + ( y - b )  <sup>2</sup> = r  <sup>2</sup>
-  
-   
+* Hình tròn :
+   - Phương trình đường tròn tâm (a,b) bán kính r : ( x - a )  <sup>2</sup> + ( y - b )  <sup>2</sup> = r  <sup>2</sup>
+   - Chu vi = 2 * 𝝅 * r và diện tích 𝝅 × r  <sup>2</sup>
+   - Độ dài cung tròn: ![image](https://user-images.githubusercontent.com/61226996/117777337-b3ed1700-b266-11eb-8854-70bc8b58e3f2.png)
+
+   - Diện tích cung tròn nếu số đo góc đo bằng độ : ![image](https://user-images.githubusercontent.com/61226996/117777443-cc5d3180-b266-11eb-9b01-38f604456d1a.png)
+   - Diện tích hình viên phấn ( R là bán kính ) : ![image](https://user-images.githubusercontent.com/61226996/117777739-19d99e80-b267-11eb-9f6c-fb670c11f764.png)
+* Tam giác :
+  - Diện tích tam giác :
+      - ![image](https://user-images.githubusercontent.com/61226996/117778335-b734d280-b267-11eb-9288-deda2ce14493.png)
+      - ![image](https://user-images.githubusercontent.com/61226996/117778383-c1ef6780-b267-11eb-8ecd-96807fdf4e93.png)
+      ( p là nửa chu vi )
+  - Tâm đường tròn ngoại tiếp tam giác là giao điểm của ba đường trung trực của tam giác đó . Đặc biệt tâm đường tròn ngoại tiếp tam giác vuông là trung điểm của cạnh huyền
+  - Tâm đường tròn nội tiếp tam giác là giao điểm của ba đường phân giác
+  - Định lý sin : ![image](https://user-images.githubusercontent.com/61226996/117779054-7ee1c400-b268-11eb-8bbc-24688a66b4b5.png)
+  - Định lý cosin : ![image](https://user-images.githubusercontent.com/61226996/117779153-98830b80-b268-11eb-8228-c5d737690e52.png)
+* Tứ giác :
+   - 
+* Đa giác :
+   -  
+
+      
+
   
