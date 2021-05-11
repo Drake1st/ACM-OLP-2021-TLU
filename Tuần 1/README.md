@@ -79,8 +79,10 @@
       }
    ```
    - Góc giữa 2 đường thẳng  ta dựa vào công thức : ( x, y ) là VTPT của đường thẳng 1 và ( x' , y' ) là VTPT của đường thẳng 2  
-   ![alt text](https://vietjack.com/toan-lop-10/images/cach-xac-dinh-goc-giua-hai-duong-thang-1.PNG)
-   
+    cosα = ![alt text](https://vietjack.com/toan-lop-10/images/cach-xac-dinh-goc-giua-hai-duong-thang-1.PNG)
+
+* Vòng tròn :
+- Phương trình đường tròn tâm (a,b) bán kính r : ( x - a )  <sup>2</sup> + ( y - b )  <sup>2</sup> = r  <sup>2</sup>
   
    
   
