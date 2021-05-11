@@ -97,11 +97,23 @@
   - Tâm đường tròn nội tiếp tam giác là giao điểm của ba đường phân giác
   - Định lý sin : ![image](https://user-images.githubusercontent.com/61226996/117779054-7ee1c400-b268-11eb-8bbc-24688a66b4b5.png)
   - Định lý cosin : ![image](https://user-images.githubusercontent.com/61226996/117779153-98830b80-b268-11eb-8228-c5d737690e52.png)
-* Tứ giác :
-   - 
+* Tứ giác : ( Do teamates mình hay quên :)) )
+  - Hình chữ nhật : chiều dài h , chiều rộng w -> chu vi = 2 *( w+h ) && diện tích = w*h 
+  - Hình thang : diện tích = 0.5 * (w<sub>1</sub>+w<sub>2</sub>) * h ( h là chiều cao , w <sub>1</sub> và w<sub>2</sub> là chiều dài của 2 cạnh đáy .
+  - Hình thoi: diện tích ![image](https://user-images.githubusercontent.com/61226996/117823077-486f6d80-b297-11eb-9852-0a622f5f2409.png)
+  - Hình diều : ![image](https://user-images.githubusercontent.com/61226996/117823209-6b018680-b297-11eb-9ca3-f9c1a02dfccb.png)
+               - Diện tích : a * b * 0.5 ( a,b là độ dài 2 cạnh chéo ) 
 * Đa giác :
-   -  
-
+   -  Đa giác đều có n cảnh :
+         - Tổng các góc = (n-2) * 180 
+         - Mỗi góc = ![image](https://user-images.githubusercontent.com/61226996/117826036-08f65080-b29a-11eb-9d05-d384d39bfb9b.png)
+         - Với n >= 2 thì có ![image](https://user-images.githubusercontent.com/61226996/117826180-29bea600-b29a-11eb-9717-b6b42d31a3b9.png) cạnh chéo
+         - Diện tích : ![image](https://user-images.githubusercontent.com/61226996/117826403-5672bd80-b29a-11eb-85c3-1b3178265f6e.png)
+                     ( Với t là chiều dài cạnh )
+   -  Đa giác được biểu diễn bằng 1 mảng các điểm theo được sắp xếp theo hướng ngược chiều kim đồng hồ và phần tử cuối của mảng = với giá trị của phần tử đầu tiên .
+   -  Diện tích  = |Σ(xᵢ * yᵢ₊₁) - (yᵢ * xᵢ₊₁)| / 2
+   
+* Tìm bao lồi 
       
 
   
