@@ -11,7 +11,7 @@
           |Duyệt   | Toán học| 
           |Chia để trị  |Xử lý chuỗi| 
           |Tham lam|  Hình học ( Geometry)|
-          |Cáu trúc dữ liệu  | Quy hoạch động |
+          |Cấu trúc dữ liệu  | Quy hoạch động |
           
           * Special ( những bài thuộc nhiều dạng bài khác nhau ) 
           
