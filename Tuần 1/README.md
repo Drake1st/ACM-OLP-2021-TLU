@@ -94,7 +94,11 @@
       - ![image](https://user-images.githubusercontent.com/61226996/117778383-c1ef6780-b267-11eb-8ecd-96807fdf4e93.png)
       ( p là nửa chu vi )
   - Tâm đường tròn ngoại tiếp tam giác là giao điểm của ba đường trung trực của tam giác đó . Đặc biệt tâm đường tròn ngoại tiếp tam giác vuông là trung điểm của cạnh huyền
+  - ![image](https://user-images.githubusercontent.com/61226996/118131461-c020d200-b428-11eb-9bf1-c6b3e2fa6670.png)
+
   - Tâm đường tròn nội tiếp tam giác là giao điểm của ba đường phân giác
+  - ![image](https://user-images.githubusercontent.com/61226996/118131495-c7e07680-b428-11eb-8595-9fa2df93820f.png)
+
   - Định lý sin : ![image](https://user-images.githubusercontent.com/61226996/117779054-7ee1c400-b268-11eb-8bbc-24688a66b4b5.png)
   - Định lý cosin : ![image](https://user-images.githubusercontent.com/61226996/117779153-98830b80-b268-11eb-8228-c5d737690e52.png)
 * Tứ giác : ( Do teamates mình hay quên :)) )
