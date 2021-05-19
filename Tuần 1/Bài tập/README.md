@@ -7,3 +7,5 @@
 - [ ] [Polygon Lattice Points](https://cses.fi/problemset/task/2193)
 - [ ] [Minimum Euclidean Distance](https://cses.fi/problemset/task/2194)
 - [ ] [Convex Hull](https://cses.fi/problemset/task/2195)
+
+### UVA
