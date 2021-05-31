@@ -5,17 +5,18 @@ Phần này thì team mình chỉ xem lại vì team cũng đã khá vững vớ
 * Những bài Ad-hoc về toán :
   * Easy .
   * Mô phỏng :Mô phỏng lại 1 số quá trình hay công thức toán học nào đó . 
-  * Tìm công thức .
-  * Grid .
-  * Các bài về dãy số : In ra phần tử thứ N hoặc kiểm tra có nằm trong dãy hay không  . Một số dãy sô
+  * Tìm công thức : Liệt kê 1 số trường hợp cơ bản để tìm công thức .
+  * Grid : 
+  * Các bài về dãy số : In ra phần tử thứ N hoặc kiểm tra có nằm trong dãy hay không  . Một số dãy sô :
     * Dãy Fibonaci : 0 , 1, 1, 2 , 3, 5,8,13 , 21, ....
     * Giai thừa : 1,1,2,6,24, ,120,720 ,... 
     * Số Catalan : 1,1,2,5,14,42,132,429,...
     * Dãy cấp số cộng .
     * Dãy cấp số nhân.  
+     => Hoặc có thể dùng web : http://oeis.org/
  * Đa thức 
  * Big Num
-* Tổ hợp : Thường là những bài ' Có bao nhiêu ... ' hoặc ' Đếm số lượng ... ' . Nên nhớ 1 số công thức tổ hợp , Catalan , Fibonaci ,...
+* Tổ hợp : Thường là những bài ' Có bao nhiêu ... ' hoặc ' Đếm số lượng ... ' . Nên hiểu 1 số công thức tổ hợp , Catalan , Fibonaci ,...
   * Fibonaci : ![image](https://user-images.githubusercontent.com/61226996/120205442-293f7c80-c254-11eb-9dae-ced8cfbc9b33.png)
   * Tổ hợp : ![image](https://user-images.githubusercontent.com/61226996/120206053-e8943300-c254-11eb-890a-063eddc472fd.png)
       * Dùng DP :
