@@ -18,12 +18,18 @@ Phần này thì team mình chỉ xem lại vì team cũng đã khá vững vớ
  * Big Num
 * Tổ hợp : Thường là những bài ' Có bao nhiêu ... ' hoặc ' Đếm số lượng ... ' . Nên hiểu 1 số công thức tổ hợp , Catalan , Fibonaci ,...
   * Fibonaci : ![image](https://user-images.githubusercontent.com/61226996/120205442-293f7c80-c254-11eb-9dae-ced8cfbc9b33.png)
-  * Tổ hợp : ![image](https://user-images.githubusercontent.com/61226996/120206053-e8943300-c254-11eb-890a-063eddc472fd.png)
+  * Tổ hợp : ![image](https://user-images.githubusercontent.com/61226996/120206053-e8943300-c254-11eb-890a-063eddc472fd.png) hay ![image](https://user-images.githubusercontent.com/61226996/120887478-55287c80-c61d-11eb-9f73-13c0f0db5fe2.png)
+
+      * Chọn các phần tử từ 1 tập nhưng không quan trọng thứ tự chủa từng phần tử
       * Dùng DP :
         * C(n,0) = C(n,n) = 1
         * C(n,k) = C(n-1,k-1) +  C(n-1,k) 
-  * Tổ hợp lặp : ![image](https://user-images.githubusercontent.com/61226996/120887323-5016fd80-c61c-11eb-9cce-f31a67b5ddf4.png)
+  * Tổ hợp lặp : ![image](https://user-images.githubusercontent.com/61226996/120887323-5016fd80-c61c-11eb-9cce-f31a67b5ddf4.png) 
       * Dùng để đếm số nghiệm nguyên &ge; 0  của phương trình : x<sub>1</sub> + x<sub>2</sub> + x<sub>3</sub>+ ... + x<sub>n</sub> = k
+  * Chỉnh hợp : ![image](https://user-images.githubusercontent.com/61226996/120887429-011d9800-c61d-11eb-8ce4-b1910af36277.png)
+  * Hoán vị lặp : ![hoavilap](https://user-images.githubusercontent.com/61226996/120887613-2068f500-c61e-11eb-8db0-422e18a1b029.PNG)
+
+     * Mỗi phần tử xuất hiện ít nhất 1 lần .
   * Số Catalan : ![image](https://user-images.githubusercontent.com/61226996/120206665-ad463400-c255-11eb-9f2a-b389935ac95c.png)
       *  Số lượng cây nhị phân với n đỉnh 
       *  Số các dãy ngoặc có n cặp 
