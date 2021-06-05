@@ -22,6 +22,8 @@ Phần này thì team mình chỉ xem lại vì team cũng đã khá vững vớ
       * Dùng DP :
         * C(n,0) = C(n,n) = 1
         * C(n,k) = C(n-1,k-1) +  C(n-1,k) 
+  * Tổ hợp lặp : ![image](https://user-images.githubusercontent.com/61226996/120887323-5016fd80-c61c-11eb-9cce-f31a67b5ddf4.png)
+      * Dùng để đếm số nghiệm nguyên &ge; 0  của phương trình : x<sub>1</sub> + x<sub>2</sub> + x<sub>3</sub>+ ... + x<sub>n</sub> = k
   * Số Catalan : ![image](https://user-images.githubusercontent.com/61226996/120206665-ad463400-c255-11eb-9f2a-b389935ac95c.png)
       *  Số lượng cây nhị phân với n đỉnh 
       *  Số các dãy ngoặc có n cặp 
