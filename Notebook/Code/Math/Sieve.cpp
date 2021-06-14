@@ -21,6 +21,8 @@ const char nl = '\n';
 const double pi = 2*acos(0.0);
 bitset<10000010> bs ;
 vi primes ;
+
+// O(n loglog n)
 void sieve ( int sz ) {
     bs.set() ;
     bs[0] = bs[1]=0;
