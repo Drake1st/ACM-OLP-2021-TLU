@@ -10,7 +10,7 @@
     * Trước mỗi buỗi sẽ tìm hiểu topic và ở 30 phút đầu sẽ thống nhất những gì đã tìm hiểu .  
     * Dành 1 tiếng 30 phút làm những bài tập thuộc chủ đề đã tìm hiểu trong topic .
     * 30 phút cuối sẽ tổng kết lại những kiến thức đã học .
-- 3 tháng đầu tiên mỗi tuần sẽ làm ít nhất 1 contest và 1 bài khó . Và những tháng sau sẽ tăng lượng contest làm mỗi tuần .
+- 3 tháng đầu tiên mỗi tuần sẽ làm ít nhất 1 contest và 1 bài tập của cô Nga  . Và những tháng sau sẽ tăng lượng contest làm mỗi tuần .
 - Vào 2-3 tuần cuối cùng sẽ hoàn thiện Notebook và chiến thuật của team .
 ## Lịch trình
 |Tuần|Topics| Bài tập |Ghi chú|
