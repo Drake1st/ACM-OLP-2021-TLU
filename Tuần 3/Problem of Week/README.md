@@ -12,3 +12,4 @@
 | --- | --- | 
 |4 4 </br> 2 1 3 </br> 2 1 2 </br> 3 1 2 3 </br> 1 4 </br>|2|
 
+* Ý tưởng : Vì mỗi công tắc chỉ được dùng 1 lần  và với số lượng  tối đa của N là 20 ta có thể nghĩ tới dãy nhị phân . Đưa thành bài toán liệt kê dãy nhị phân độ dài N . Nếu 1 ta sẽ bật bóng đèn thứ i và ngược lại . Kiểm tra xem các bóng đèn có xuất hiện lẻ lần và mỗi bóng đèn đều xuất hiện ít nhất 1 lần . 
