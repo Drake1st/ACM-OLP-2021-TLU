@@ -24,7 +24,7 @@
 |[**Tuần 6**](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%206)|<ul><li> String</li>|||
 |[**Tuần 7**](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%207)|<ul><li> Break </li>|||
 |[**Tuần 8**](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%208)|<ul><li> Break</li>|||
-|[**Tuần 9**](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%209|<ul><li> Đồ Thị 1</li>|||
+|[**Tuần 9**](https://github.com/M1st-tlu/ACM-2021-TLU_Geobyte/tree/main/Tu%E1%BA%A7n%209)|<ul><li> Đồ Thị 1</li>|||
 |[**Tuần 10**](https://github.com/Drake1st/ACM-OLP-2021-TLU)||||
 
 
