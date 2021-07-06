@@ -16,6 +16,8 @@ Mình sẽ ôn lại những cấu trúc dữ liệu được xây dựng sẵn 
   * map : lưu trữ dạng key -> value , giống với mảng nhưng thay vì dùng index để  truy xuất phần tử thì ở đây ta dùng key ( có thể là int , string , char ) để truy xuất đến phần tử .
     * map và set trong C++ thường được xây dựng bằng Red-Black Tree 
   * Heap ( trong C++ priority_queue) : Là 1 cách thể hiện khác của queue .  Mọi phần tử đều được gắn liền với một độ ưu tiên . Một phần tử có độ ưu tiên cao sẽ được dequeued (xóa khỏi Priority Queue) trước một phần tử có độ ưu tiên thấp . Nếu hai phần tử có cùng độ ưu tiên, lúc này việc phần tử nào được xử lý trước sẽ phụ thuộc vào thứ tự của chúng ở trong Priority Queue.
-* Fenwick Tree ( Binaray Indexed Tree ) :
-* Segment Tree
-* DSU :
+* Fenwick Tree ( Binaray Indexed Tree ) : 1 CTDL được tối ưu cho việc cập nhật giá trị một phần tử và tìm tổng, min/max giữa 2 vị trí bất kì trong mảng .
+* Segment Tree : 
+* DSU : Là 1 CTDL hỗ trợ các thao tác sau 
+   * Tìm xem X thuộc tập hợp nào.
+   * Gộp 2 tập hợp A B lại làm một.
